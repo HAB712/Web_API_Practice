@@ -34,3 +34,4 @@ F:\api\api\obj\Debug\net8.0\refint\api.dll
 F:\api\api\obj\Debug\net8.0\api.pdb
 F:\api\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 F:\api\api\obj\Debug\net8.0\ref\api.dll
+F:\api\api\obj\Debug\net8.0\api.sourcelink.json
