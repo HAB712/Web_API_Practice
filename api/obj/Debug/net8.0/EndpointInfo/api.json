@@ -68,6 +68,29 @@
           }
         }
       },
+      "delete": {
+        "tags": [
+          "Prod"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Prod/editprod/{id}": {
       "put": {
         "tags": [
           "Prod"
@@ -87,17 +110,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "type": "integer",
+                "format": "int32"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "type": "integer",
+                "format": "int32"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "type": "integer",
+                "format": "int32"
               }
             }
           }
@@ -107,19 +133,20 @@
             "description": "OK"
           }
         }
-      },
-      "delete": {
+      }
+    },
+    "/api/Prod/category/{category}": {
+      "get": {
         "tags": [
           "Prod"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "category",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],

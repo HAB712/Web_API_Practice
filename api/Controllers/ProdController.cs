@@ -16,7 +16,6 @@ namespace api.Controllers
         };
         private static int _nextid = 4;
 
-
           // ===============  Add Product ===================== //
 
         [HttpPost]
@@ -52,8 +51,7 @@ namespace api.Controllers
             return Ok(product);
         }
 
-
-        // ===============  Edit Product ===================== //
+        // ===============  Edit Stock Quantity ===================== //
 
         [HttpPut("editprod/{id}")]
         public ActionResult EditProd(int id,[FromBody] int quantityChange)
@@ -82,6 +80,21 @@ namespace api.Controllers
 
             prodlist.Remove(product);
             return Ok("Product deleted successfully.");
+        }
+
+
+        // =============== Filter Product By Category ===================== //
+
+        [HttpGet("category/{category}")]
+
+        public ActionResult Cateprod(string category)
+        {
+            var filterproduct = prodlist.Where(p => p.Category.ToLower() == category.ToLower()).ToList();
+
+            if(!filterproduct.Any())
+                return BadRequest("This Category product not found.");
+
+            return Ok(filterproduct);
         }
 
     }
