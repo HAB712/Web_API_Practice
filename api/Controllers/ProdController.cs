@@ -53,6 +53,23 @@ namespace api.Controllers
         }
 
 
+        // ===============  Edit Product ===================== //
+
+        [HttpPut("editprod/{id}")]
+        public ActionResult EditProd(int id,[FromBody] int quantityChange)
+        {
+            var product = prodlist.FirstOrDefault(p => p.Id == id);
+
+            if (product == null)
+                return BadRequest("product not found.");
+
+            product.StockQuantity += quantityChange;
+
+            if (product.StockQuantity < 0) product.StockQuantity = 0;
+
+            return Ok(product);
+        }
+
         // ===============  Delete Product ===================== //
 
         [HttpDelete("{id}")]

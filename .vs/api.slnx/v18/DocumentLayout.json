@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|f:\\api\\api\\model\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\model\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|f:\\api\\api\\controllers\\prodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\controllers\\prodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "F:\\api\\api\\Model\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "api\\Model\\UpdateProductDto.cs",
+              "ToolTip": "F:\\api\\api\\Model\\UpdateProductDto.cs",
+              "RelativeToolTip": "api\\Model\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:55:12.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProdController.cs",
               "DocumentMoniker": "F:\\api\\api\\Controllers\\ProdController.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\ProdController.cs",
               "ToolTip": "F:\\api\\api\\Controllers\\ProdController.cs",
               "RelativeToolTip": "api\\Controllers\\ProdController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA3wDQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T03:35:35.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "F:\\api\\api\\Model\\Product.cs",
               "RelativeDocumentMoniker": "api\\Model\\Product.cs",
